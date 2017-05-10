@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://iamohero.github.io/"/>
-  <updated>2017-05-10T07:20:49.000Z</updated>
+  <updated>2017-05-10T08:48:17.000Z</updated>
   <id>http://iamohero.github.io/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <title>Hexo+GitHub搭建个人博客</title>
     <link href="http://iamohero.github.io/2017/05/10/howtohexo/"/>
     <id>http://iamohero.github.io/2017/05/10/howtohexo/</id>
-    <published>2017-05-10T07:04:37.000Z</published>
-    <updated>2017-05-10T07:20:49.000Z</updated>
+    <published>2017-05-10T08:48:17.000Z</published>
+    <updated>2017-05-10T08:48:17.000Z</updated>
     
     <content type="html"><![CDATA[<p>摘要：<br>今晚闲暇，实在不知道该干什么，于是捡起了搭博客的想法，入门了hexo搭建github博客，现在记录下来，也算是作个念象，给想要搭建个人博客网站的小伙伴们一个参考。</p>
 <p>PS: 因本人使用的是苹果机，所以本教程以Mac OS为参考，其实mac与windows搭建github博客相差无几，如果有用windows的小伙伴感到不适，可以参考<a href="http://www.jianshu.com/p/701b1095da11" target="_blank" rel="external">手把手教你建github技术博客</a>教程。</p>
@@ -42,6 +42,8 @@
     </summary>
     
       <category term="Hexo" scheme="http://iamohero.github.io/categories/Hexo/"/>
+    
+      <category term="安装手顺" scheme="http://iamohero.github.io/categories/Hexo/%E5%AE%89%E8%A3%85%E6%89%8B%E9%A1%BA/"/>
     
     
       <category term="Hexo" scheme="http://iamohero.github.io/tags/Hexo/"/>
