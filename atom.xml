@@ -214,29 +214,4 @@ $ hexo deploy
     
   </entry>
   
-  <entry>
-    <title>hello</title>
-    <link href="http://iamohero.github.io/2015/07/01/hello/"/>
-    <id>http://iamohero.github.io/2015/07/01/hello/</id>
-    <published>2015-07-01T14:37:23.000Z</published>
-    <updated>2017-05-10T07:10:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>摘要:<br><a id="more"></a><br>正文: i love my family!</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;摘要:&lt;br&gt;
-    
-    </summary>
-    
-      <category term="日志" scheme="http://iamohero.github.io/categories/%E6%97%A5%E5%BF%97/"/>
-    
-      <category term="二级目录" scheme="http://iamohero.github.io/categories/%E6%97%A5%E5%BF%97/%E4%BA%8C%E7%BA%A7%E7%9B%AE%E5%BD%95/"/>
-    
-    
-      <category term="hello" scheme="http://iamohero.github.io/tags/hello/"/>
-    
-  </entry>
-  
 </feed>
