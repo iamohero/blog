@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>iamhero</title>
+  <subtitle>不以物喜，不以己悲</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://iamohero.github.io/"/>
+  <updated>2017-05-10T07:20:49.000Z</updated>
+  <id>http://iamohero.github.io/</id>
+  
+  <author>
+    <name>yuanguolei</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo+GitHub搭建个人博客</title>
+    <link href="http://iamohero.github.io/2017/05/10/howtohexo/"/>
+    <id>http://iamohero.github.io/2017/05/10/howtohexo/</id>
+    <published>2017-05-10T07:04:37.000Z</published>
+    <updated>2017-05-10T07:20:49.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>摘要：<br>今晚闲暇，实在不知道该干什么，于是捡起了搭博客的想法，入门了hexo搭建github博客，现在记录下来，也算是作个念象，给想要搭建个人博客网站的小伙伴们一个参考。</p>
+<p>PS: 因本人使用的是苹果机，所以本教程以Mac OS为参考，其实mac与windows搭建github博客相差无几，如果有用windows的小伙伴感到不适，可以参考<a href="http://www.jianshu.com/p/701b1095da11" target="_blank" rel="external">手把手教你建github技术博客</a>教程。</p>
+<p>正文：<br>1.注册Github账号<br>  这里我们就不多讲了，小伙伴们可以点击<a href="https://github.com" target="_blank" rel="external">这里</a>，进入官网进行注册。</p>
+<p>2.创建仓库<br>  登录账号后，在Github页面的右上方选择New repository进行仓库的创建。(//upload-images.jianshu.io/upload_images/291600-7cec7b9f28359ea5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)</p>
+<p>在仓库名字输入框中输入：<br>    Github昵称.github.io</p>
+<p>3.生成添加秘钥</p>
+<p>4.安装node.js</p>
+<p>5.安装git</p>
+<p>6.安装配置hexo</p>
+<p>7.初始化博客</p>
+<p>8.配置博客</p>
+]]></content>
+    
+    <summary type="html">
+    
+      使用Hexo在GitHub上搭建个人博客
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://iamohero.github.io/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://iamohero.github.io/tags/Hexo/"/>
+    
+      <category term="Howto" scheme="http://iamohero.github.io/tags/Howto/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://iamohero.github.io/2017/05/10/hello-world/"/>
+    <id>http://iamohero.github.io/2017/05/10/hello-world/</id>
+    <published>2017-05-10T01:51:17.000Z</published>
+    <updated>2017-05-10T01:51:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hello</title>
+    <link href="http://iamohero.github.io/2015/07/01/hello/"/>
+    <id>http://iamohero.github.io/2015/07/01/hello/</id>
+    <published>2015-07-01T14:37:23.000Z</published>
+    <updated>2017-05-10T07:10:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>摘要:<br><a id="more"></a><br>正文: i love my family!</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;摘要:&lt;br&gt;
+    
+    </summary>
+    
+      <category term="日志" scheme="http://iamohero.github.io/categories/%E6%97%A5%E5%BF%97/"/>
+    
+      <category term="二级目录" scheme="http://iamohero.github.io/categories/%E6%97%A5%E5%BF%97/%E4%BA%8C%E7%BA%A7%E7%9B%AE%E5%BD%95/"/>
+    
+    
+      <category term="hello" scheme="http://iamohero.github.io/tags/hello/"/>
+    
+  </entry>
+  
+</feed>
