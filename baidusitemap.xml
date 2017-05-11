@@ -3,10 +3,31 @@
 
 
     
+  <url>
+    <loc>http://iamohero.github.io/2017/05/10/aboutcache1/</loc>
+    <lastmod>2017-05-11T00:29:04.000Z</lastmod>
+    <data>
+        <display>
+        <title>缓存在分布式系统中的应用（一）</title>
+        <pubTime>2017-05-10T14:13:40.000Z</pubTime>
+        
+        <tag>缓存</tag>
+         
+        <tag>分布式架构</tag>
+         
+         
+           
+             
+              <breadCrumb title="分布式架构" url="http://iamohero.github.io/categories/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84/"/>
+          
+        </display>
+    </data>
+    </url>
+
     
   <url>
     <loc>http://iamohero.github.io/2017/05/10/howtohexo/</loc>
-    <lastmod>2017-05-10T11:43:20.000Z</lastmod>
+    <lastmod>2017-05-10T14:23:59.000Z</lastmod>
     <data>
         <display>
         <title>Hexo+GitHub搭建个人博客</title>
@@ -14,7 +35,7 @@
         
         <tag>Hexo</tag>
          
-        <tag>Howto</tag>
+        <tag>Material Theme</tag>
          
          
            
@@ -28,6 +49,7 @@
     </data>
     </url>
 
+    
     
     
     
