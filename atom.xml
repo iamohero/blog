@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://iamohero.github.io/"/>
-  <updated>2017-05-20T06:19:50.000Z</updated>
+  <updated>2017-05-20T06:22:18.000Z</updated>
   <id>http://iamohero.github.io/</id>
   
   <author>
@@ -20,41 +20,42 @@
     <link href="http://iamohero.github.io/2017/05/20/g108-tk/"/>
     <id>http://iamohero.github.io/2017/05/20/g108-tk/</id>
     <published>2017-05-20T06:05:39.000Z</published>
-    <updated>2017-05-20T06:19:50.000Z</updated>
+    <updated>2017-05-20T06:22:18.000Z</updated>
     
     <content type="html"><![CDATA[<p>G108项目结束后，CELL/PE部分的交接的任务安排。</p>
 <a id="more"></a>
-<p>###1. 設計書の構成    </p>
-<ul>
+<h3 id="1-設計書の構成"><a href="#1-設計書の構成" class="headerlink" title="1. 設計書の構成"></a>1. 設計書の構成</h3><ul>
 <li>Array/CF, Cell/PE の設計書構成について説明ができる。                                                                        </li>
 <li>ドキュメント更新時のルール(TFS管理、変更履歴の書き方等)を説明できる                                                                        </li>
 </ul>
-<p>###2. システム機能</p>
-<pre><code>- 各サブシステムの役割、プロセス構成の説明ができる    (Array/CF, Cell/PE、OIC、RTMS(FabMon,SPC))                                                                        
+<h3 id="2-システム機能"><a href="#2-システム機能" class="headerlink" title="2. システム機能"></a>2. システム機能</h3><pre><code>- 各サブシステムの役割、プロセス構成の説明ができる    (Array/CF, Cell/PE、OIC、RTMS(FabMon,SPC))                                                                        
 - 外部システムとの連携内容の説明ができる。(QMS, WMS, SAP)                                                                        
 - DB カテゴリの説明ができる(FCA,FDA,FHAのカテゴリ説明)                                                                        
-- 用語の説明ができる(下記Objectの状態遷移含む)                                                     Lot、Cassette、基板、Cell、装置、Portｍ、Buffer、Inline                                                                        
-- ロット、基板のライフサイクルを説明できる                                                        Array/CF: ロット投入、ロット作成-&gt;ロット払出し、ロット打ち切り                                                                        
+- 用語の説明ができる(下記Objectの状態遷移含む)                                                     
+    Lot、Cassette、基板、Cell、装置、Portｍ、Buffer、Inline                                                                        
+- ロット、基板のライフサイクルを説明できる                                                        
+    Array/CF: ロット投入、ロット作成-&gt;ロット払出し、ロット打ち切り                                                                        
  Cell/PE: 基板受け入れ-&gt;基板払出し、基板打ち切り                                                                        
-- Array/CF, Cell/PE 装置自動化処理シナリオの説明ができる                                                特殊処理装置(Mask洗浄、検査、カセット洗浄含む)                                                                        
+- Array/CF, Cell/PE 装置自動化処理シナリオの説明ができる                                                
+    特殊処理装置(Mask洗浄、検査、カセット洗浄含む)                                                                        
 - 各種判定(基板、Cell)の説明ができる                                                                        
 - DB ER Explanation.                                                                        
-</code></pre><p>###3. アプリ</p>
-<pre><code>- アプリテスト方法の操作ができる                                                                        
+</code></pre><h3 id="3-アプリ"><a href="#3-アプリ" class="headerlink" title="3. アプリ"></a>3. アプリ</h3><pre><code>- アプリテスト方法の操作ができる                                                                        
 - 実際にメッセーにを送信してトレーニング                                                                    
-</code></pre><p>###4. 納品、本番リリース</p>
-<pre><code>- アプリ納品手順の操作ができる
-    (ソースコード納品、ビルド、リリースディレクトリへコピー、ReleaseNote作成)                                                                        
+</code></pre><h3 id="4-納品、本番リリース"><a href="#4-納品、本番リリース" class="headerlink" title="4. 納品、本番リリース"></a>4. 納品、本番リリース</h3><pre><code>- アプリ納品手順の操作ができる
+
+    ソースコード納品、ビルド、リリースディレクトリへコピー、ReleaseNote作成                                                                    
 - 本番リリース手順を説明できる(開発機のリリースディレクトリから本番環境へのリリース方法)                                                                        
 - 本番リリース後の確認を操作できる(TibcoTool、Debug Log Error ログにて確認する方法)                                                                        
-</code></pre><p>###5. Cell/PE ディレクトリ    </p>
-<pre><code>- 各ディレクトリの説明ができる                                                                        
+</code></pre><h3 id="5-Cell-PE-ディレクトリ"><a href="#5-Cell-PE-ディレクトリ" class="headerlink" title="5. Cell/PE ディレクトリ"></a>5. Cell/PE ディレクトリ</h3><pre><code>- 各ディレクトリの説明ができる                                                                        
 - アプリ起動・停止の方法を説明できる                                                                        
-- Tibco Toolを使用することができる                                                                    Tibco Message Pending Log を確認することができる                                                                        
+- Tibco Toolを使用することができる                                                                    
+    ※ Tibco Message Pending Log を確認することができる                                                                        
 - SQLDeveloper で 本番DB にアクセスすることができる                                                                        
 - 障害調査方法を説明することができる                                                                        
 - bcksvrから古いログを抜き出して調査することができるを含む                                                                        
-- LogAnaを使用してログ解析することができるを含む                                                    ※ これまでよく発生した障害調査を例に調査手順を説明する。３件程度の例をサンプルにする            
+- LogAnaを使用してログ解析することができるを含む                                                    
+    ※ これまでよく発生した障害調査を例に調査手順を説明する。３件程度の例をサンプルにする            
 
 - Incident SharePoint への記入、更新方法の説明ができる                                                                        
 </code></pre>]]></content>
